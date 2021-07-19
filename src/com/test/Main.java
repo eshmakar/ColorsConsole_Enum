@@ -3,6 +3,9 @@ package com.test;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(Colors.YELLOW_BACKGROUND);
+        Colors[] colors = Colors.values();
+        for(Colors x: colors){
+            System.out.println(x+"a");
+        }
     }
 }
